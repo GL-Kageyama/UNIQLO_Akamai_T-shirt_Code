@@ -19,9 +19,20 @@ I would like to introduce this code, including how to use it, below.
 ![Code_View](https://user-images.githubusercontent.com/36861752/233776315-c24c45c7-0a59-48e5-9bc0-df95942e7a3c.jpg)
 
 ## Output Sample
-## Standby
+Since this code is a program for a server, the code is invoked on the console on the left.  
+The console on the left is a temporary server.  
+
+The console on the right is the client side, executing curl commands.  
+
+This program responds with ACTIVE while processing on the server and INACTIVE while waiting.  
+
+### Standby
 ![Pre](https://user-images.githubusercontent.com/36861752/233776338-f00756ee-fb4c-472a-bd5a-f9179f7d9dc0.png)
-## Active
+
+### Active
 ![Active](https://user-images.githubusercontent.com/36861752/233776362-bd615819-8a72-4617-b91f-91982971feab.png)
-## Inactive
+
+### Inactive
 ![Inactive](https://user-images.githubusercontent.com/36861752/233776394-6b8691d7-576d-4795-8321-67bf32716ee6.png)
+
+
