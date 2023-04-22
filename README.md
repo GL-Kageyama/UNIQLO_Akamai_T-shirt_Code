@@ -13,10 +13,10 @@ Then, the program for a simple server was restored.
 I would like to introduce this code, including how to use it, below.  
 
 ### T-shirt's Design
-![T-Shirt_View](https://user-images.githubusercontent.com/36861752/233776272-a1f52816-824f-43df-96c3-61dfe6fa02b7.png)
+![T-Shirt_View](https://user-images.githubusercontent.com/36861752/233776272-a1f52816-824f-43df-96c3-61dfe6fa02b7.png){height=400px}
 
 ### T-shirt's Code
-![Code_View](https://user-images.githubusercontent.com/36861752/233776315-c24c45c7-0a59-48e5-9bc0-df95942e7a3c.jpg)
+![Code_View](https://user-images.githubusercontent.com/36861752/233776315-c24c45c7-0a59-48e5-9bc0-df95942e7a3c.jpg){height=400px}
 
 ## Output Sample
 Since this code is a program for a server, the code is invoked on the console on the left.  
