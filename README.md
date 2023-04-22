@@ -46,17 +46,6 @@ Target: Akamai T-Shirt A , Count: 3
 Target: Akamai T-Shirt B , Count: 0  
 Target: Akamai T-Shirt A , Count: 4  
 Target: Akamai T-Shirt B , Count: 1  
-Target: Akamai T-Shirt A , Count: 5  
-Target: Akamai T-Shirt B , Count: 2  
-Target: Akamai T-Shirt A , Count: 6  
-Target: Akamai T-Shirt B , Count: 3  
-Target: Akamai T-Shirt C , Count: 0  
-Target: Akamai T-Shirt A , Count: 7  
-Target: Akamai T-Shirt B , Count: 4  
-Target: Akamai T-Shirt C , Count: 1  
-Target: Akamai T-Shirt A , Count: 8  
-Target: Akamai T-Shirt B , Count: 5  
-Target: Akamai T-Shirt C , Count: 2  
 
 ### Client side
 ~ $ curl http://localhost:8080/status  
