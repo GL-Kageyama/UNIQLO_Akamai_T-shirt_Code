@@ -26,13 +26,13 @@ The console on the right is the client side, executing curl commands.
 
 This program responds with ACTIVE while processing on the server and INACTIVE while waiting.  
 
-### Standby
+### Before
 ![Pre](https://user-images.githubusercontent.com/36861752/233776338-f00756ee-fb4c-472a-bd5a-f9179f7d9dc0.png)
 
-### Active
+### Processing
 ![Active](https://user-images.githubusercontent.com/36861752/233776362-bd615819-8a72-4617-b91f-91982971feab.png)
 
-### Inactive
+### After
 ![Inactive](https://user-images.githubusercontent.com/36861752/233776394-6b8691d7-576d-4795-8321-67bf32716ee6.png)
 
 ## Command Memo
