@@ -13,10 +13,10 @@ Then, the program for a simple server was restored.
 I would like to introduce this code, including how to use it, below.  
 
 ### T-shirt's Design
-![T-Shirt_View](https://user-images.githubusercontent.com/36861752/233776272-a1f52816-824f-43df-96c3-61dfe6fa02b7.png){height=400px}
+![T-Shirt_View](https://user-images.githubusercontent.com/36861752/233776272-a1f52816-824f-43df-96c3-61dfe6fa02b7.png)
 
 ### T-shirt's Code
-![Code_View](https://user-images.githubusercontent.com/36861752/233776315-c24c45c7-0a59-48e5-9bc0-df95942e7a3c.jpg){height=400px}
+![Code_View](https://user-images.githubusercontent.com/36861752/233776315-c24c45c7-0a59-48e5-9bc0-df95942e7a3c.jpg)
 
 ## Output Sample
 Since this code is a program for a server, the code is invoked on the console on the left.  
@@ -35,4 +35,37 @@ This program responds with ACTIVE while processing on the server and INACTIVE wh
 ### Inactive
 ![Inactive](https://user-images.githubusercontent.com/36861752/233776394-6b8691d7-576d-4795-8321-67bf32716ee6.png)
 
+## Command Memo
+### Server side
+~ $ go build -o Akamai Akamai.go  
+~ $ ./Akamai  
+Target: Akamai T-Shirt A , Count: 0  
+Target: Akamai T-Shirt A , Count: 1  
+Target: Akamai T-Shirt A , Count: 2  
+Target: Akamai T-Shirt A , Count: 3  
+Target: Akamai T-Shirt B , Count: 0  
+Target: Akamai T-Shirt A , Count: 4  
+Target: Akamai T-Shirt B , Count: 1  
+Target: Akamai T-Shirt A , Count: 5  
+Target: Akamai T-Shirt B , Count: 2  
+Target: Akamai T-Shirt A , Count: 6  
+Target: Akamai T-Shirt B , Count: 3  
+Target: Akamai T-Shirt C , Count: 0  
+Target: Akamai T-Shirt A , Count: 7  
+Target: Akamai T-Shirt B , Count: 4  
+Target: Akamai T-Shirt C , Count: 1  
+Target: Akamai T-Shirt A , Count: 8  
+Target: Akamai T-Shirt B , Count: 5  
+Target: Akamai T-Shirt C , Count: 2  
 
+### Client side
+~ $ curl http://localhost:8080/status  
+INACTIVE  
+~ $ curl -X POST -d "target=Akamai T-Shirt A &count=30" http://localhost:8080/admin  
+Control message issued for Target Akamai T-Shirt A   
+~ $ curl -X POST -d "target=Akamai T-Shirt B &count=30" http://localhost:8080/admin  
+Control message issued for Target Akamai T-Shirt B   
+~ $ curl -X POST -d "target=Akamai T-Shirt C &count=30" http://localhost:8080/admin  
+Control message issued for Target Akamai T-Shirt C   
+~ $ curl http://localhost:8080/status  
+ACTIVE  
