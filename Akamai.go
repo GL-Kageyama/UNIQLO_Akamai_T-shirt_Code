@@ -61,7 +61,7 @@ func main() {
 				fmt.Fprintln(w, "INACTIVE")
 			}
 		case <-timeout.C:
-			fmt.Fprintln(w, "INACTIVE")
+			fmt.Fprintln(w, "TIMEOUT")
 		}
 	})
 
