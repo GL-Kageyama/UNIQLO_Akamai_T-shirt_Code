@@ -58,3 +58,7 @@ Control message issued for Target Akamai T-Shirt B
 Control message issued for Target Akamai T-Shirt C   
 ~ $ curl http://localhost:8080/status  
 ACTIVE  
+
+## Processing Video
+https://www.youtube.com/watch?v=X79GUhR_wN0
+
